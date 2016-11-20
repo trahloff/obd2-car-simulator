@@ -22,6 +22,7 @@
         "os-utils": "0.0.14",
         "body-parser": "^1.0.1",
         "connect-busboy": "^0.0.2",
-        "hashmap": "^2.0.6"
+        "hashmap": "^2.0.6",
+        "chance": "^1.0.4"
     }
 }
