@@ -1,4 +1,3 @@
-// load packages
 var express = require('express');
 var bodyParser = require('body-parser');
 var SimulatorManager = require('./lib/simulatorManager.js');
@@ -6,7 +5,6 @@ var cfenv = require('cfenv');
 var busboy = require('connect-busboy');
 
 var simManager = new SimulatorManager();
-
 simManager.start();
 
 
