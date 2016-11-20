@@ -1,0 +1,27 @@
+{
+    "name": "obd2-car-simulator",
+    "version": "1.0.0",
+    "description": "An application which simulates the output of an OBD2 port and publishes the information to the IBM Watson IoT Platform.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kevin Eifinger",
+    "license": "ISC",
+    "dependencies": {
+        "cfenv": "^1.0.3",
+        "debug": "^2.2.0",
+        "colors": "1.1.2",
+        "express": "^4.13.4",
+        "gpx2js": "^0.1.0",
+        "ibmiotf": "^0.2.10",
+        "jsonfile": "^2.2.3",
+        "math": "0.0.3",
+        "node-uuid": "^1.4.7",
+        "os-utils": "0.0.14",
+        "body-parser": "^1.0.1",
+        "connect-busboy": "^0.0.2",
+        "hashmap": "^2.0.6"
+    }
+}

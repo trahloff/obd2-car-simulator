@@ -1,0 +1,8 @@
+applications:
+- name: obd2-car-simulator
+  memory: 1024M
+  instances: 1
+  disk_quota: 256M
+  command: node app.js
+  services:
+    - Internet of Things Platform-f7

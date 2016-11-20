@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="53.4611985" lon="9.66836">
+  <name>Schweriner Straße 10, 21614 Buxtehude</name>
+</wpt>
+<wpt lat="53.4601296" lon="9.6697437">
+  <name>53.4601296,9.6697437</name>
+  <desc>Dresdener Str. 52, 21614 Buxtehude, Deutschland</desc>
+</wpt>
+<wpt lat="53.4607812" lon="9.6672117">
+  <name>53.4607812,9.6672117</name>
+  <desc>Torfweg 39, 21614 Buxtehude, Deutschland</desc>
+</wpt>
+<trk>
+  <name>Schweriner Straße 10, 21614 Buxtehude - Dresdener Str. 52</name>
+  <desc>0.2 km, 0:01</desc>
+  <trkseg>
+    <trkpt lat="53.46104" lon="9.66845"></trkpt>
+    <trkpt lat="53.46104" lon="9.66848"></trkpt>
+    <trkpt lat="53.46124" lon="9.66946"></trkpt>
+    <trkpt lat="53.46124" lon="9.66946"></trkpt>
+    <trkpt lat="53.46103" lon="9.66958"></trkpt>
+    <trkpt lat="53.46087" lon="9.66963"></trkpt>
+    <trkpt lat="53.46069" lon="9.66967"></trkpt>
+    <trkpt lat="53.46056" lon="9.6697"></trkpt>
+    <trkpt lat="53.46041" lon="9.66974"></trkpt>
+    <trkpt lat="53.46028" lon="9.66976"></trkpt>
+    <trkpt lat="53.46012" lon="9.66978"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Dresdener Str. 52 - Torfweg 39</name>
+  <desc>0.2 km, 0:01</desc>
+  <trkseg>
+    <trkpt lat="53.46012" lon="9.66978"></trkpt>
+    <trkpt lat="53.46013" lon="9.66963"></trkpt>
+    <trkpt lat="53.46014" lon="9.66955"></trkpt>
+    <trkpt lat="53.46014" lon="9.6695"></trkpt>
+    <trkpt lat="53.46017" lon="9.66921"></trkpt>
+    <trkpt lat="53.46021" lon="9.66894"></trkpt>
+    <trkpt lat="53.46026" lon="9.66868"></trkpt>
+    <trkpt lat="53.46033" lon="9.66836"></trkpt>
+    <trkpt lat="53.4604" lon="9.66801"></trkpt>
+    <trkpt lat="53.46046" lon="9.66778"></trkpt>
+    <trkpt lat="53.46051" lon="9.66753"></trkpt>
+    <trkpt lat="53.46055" lon="9.66734"></trkpt>
+    <trkpt lat="53.46058" lon="9.66718"></trkpt>
+    <trkpt lat="53.46058" lon="9.66718"></trkpt>
+    <trkpt lat="53.46081" lon="9.66718"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Torfweg 39 - Schweriner Straße 10, 21614 Buxtehude</name>
+  <desc>0.1 km, 0:00</desc>
+  <trkseg>
+    <trkpt lat="53.46081" lon="9.66718"></trkpt>
+    <trkpt lat="53.46082" lon="9.66736"></trkpt>
+    <trkpt lat="53.46104" lon="9.66845"></trkpt>
+  </trkseg>
+</trk>
+</gpx>
