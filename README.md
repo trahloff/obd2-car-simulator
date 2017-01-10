@@ -5,3 +5,7 @@ Upon start it will check for a DeviceType "Simulated-Car" and if there are at le
 Afterwards it will start omitting OBD2 and GPS data for all Devices of type "Simulated-Car".
 
 <a href="https://bluemix.net/deploy?repository=https://github.com/eifinger/obd2-car-simulator"><img src="https://bluemix.net/deploy/button.png" alt="Deploy to Bluemix"></a>
+Or manually:
+git clone
+cf push (App will crash due to missing bound IoT Platform)
+Bind IoT Platfrom to Application
