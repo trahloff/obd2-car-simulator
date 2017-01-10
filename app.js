@@ -3,8 +3,22 @@ var bodyParser = require('body-parser');
 var SimulatorManager = require('./lib/simulatorManager.js');
 var cfenv = require('cfenv');
 var busboy = require('connect-busboy');
+var uuid = require('node-uuid');
+var credentialHelper = new(require('./lib/credentialHelper.js'));
 
-var simManager = new SimulatorManager();
+var vcap = credentialHelper.getVCAP(); //.VCAP_SERVICES;
+if(vcap['iotf-service'][0] == null || vcap['iotf-service'][0] == "undefined"){
+  throw("Could not find a bound IoT Platform. Please bind an existing IoTP Service to this app´.");
+}
+
+var appClientConfig = {
+    "org": vcap['iotf-service'][0].credentials.org,
+    "id": uuid.v4(),
+    "auth-key": vcap['iotf-service'][0].credentials.apiKey,
+    "auth-token": vcap['iotf-service'][0].credentials.apiToken
+};
+
+var simManager = new SimulatorManager(appClientConfig, 5);
 simManager.start();
 
 
