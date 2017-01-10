@@ -5,4 +5,8 @@ applications:
   disk_quota: 256M
   command: node app.js
   services:
-    - Internet of Things Platform-f7
+    - Internet of Things Platform-obd2
+declared-services:
+  Internet of Things Platform-obd2:
+    label: iotf-service
+    plan:  iotf-service-free
